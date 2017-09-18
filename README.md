@@ -4,7 +4,7 @@ Basic implementation of A* algorithm with GO lang
 More infomation can be found there -> https://en.wikipedia.org/wiki/A*_search_algorithm
 
 pseudocode from wiki:
-
+```
 function A*(start, goal)
     // The set of nodes already evaluated
     closedSet := {}
@@ -64,3 +64,4 @@ function reconstruct_path(cameFrom, current)
         current := cameFrom[current]
         total_path.append(current)
     return total_path
+    ```
